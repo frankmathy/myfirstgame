@@ -63,7 +63,7 @@
 			<fileset dir="${basedir}/classes-jre"/>
 			<!-- optional jbox2d include
 			<fileset dir="classes-jbox2d-jre"/> -->
-<!--		</copy>-->
+		</copy>
 		<javac srcdir="." destdir="${destdir}" source="1.3" target="1.3"
 		debug="true">
 			<include name="${apppath}/*.java"/>
