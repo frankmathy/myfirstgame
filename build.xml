@@ -1,4 +1,4 @@
-<project name="Game" default="jre" basedir="../..">
+<project name="Game" default="jre" basedir=".">
 	<!-- application-specific. Make sure basedir matches path. -->
 	<description>
 		Game
@@ -59,8 +59,8 @@
 	</target>
 
 	<target name="jre" description="Compile for JRE" depends="mkdirs">
-<!--		<copy todir="${destdir}">
-			<fileset dir="${basedir}/classes-jre"/>-->
+		<copy todir="${destdir}">
+			<fileset dir="${basedir}/classes-jre"/>
 			<!-- optional jbox2d include
 			<fileset dir="classes-jbox2d-jre"/> -->
 <!--		</copy>-->
