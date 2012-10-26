@@ -60,7 +60,7 @@
 
 	<target name="jre" description="Compile for JRE" depends="mkdirs">
 		<copy todir="${destdir}">
-			<fileset dir="classes-jre"/>
+			<fileset dir="${basedir}/classes-jre"/>
 			<!-- optional jbox2d include
 			<fileset dir="classes-jbox2d-jre"/> -->
 		</copy>
